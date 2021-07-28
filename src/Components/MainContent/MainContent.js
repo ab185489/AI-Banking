@@ -30,7 +30,7 @@ function MainContent() {
   return (
     <>
       <Header />
-      {displayCard ? (
+      {!displayCard ? (
         <>
           <Robot smiley={smiley} />
           <Message message={displayMsg} />{" "}
